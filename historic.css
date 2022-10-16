@@ -1,0 +1,102 @@
+header{background-color: yellow;  border: 2px solid red;
+    border-radius: 25px;}
+
+header h1{text-align: center;}
+
+nav ul{display: flex;
+list-style: none;
+justify-content: space-evenly;
+font-size: 20px;
+
+}
+
+
+ul a{text-decoration: none;
+    color: black;
+}
+
+a:hover{background-color: skyblue;
+    border-radius: 10px;
+   
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+    
+}
+.red-fort{background-color: white;
+margin: 10px;
+padding: 20px;border: 2px solid red;
+border-radius: 80px 24px;
+box-shadow: 5px 10px #888888;}
+
+.red-fort img{height: 200px;}
+
+
+
+.Qutub-Minar{background-color: white;  margin: 10px;  padding: 20px;border: 2px solid red;
+    border-radius: 80px 24px;
+    box-shadow: 5px 10px #888888;}
+
+.Qutub-Minar img{height: 300px;}
+
+
+.Hawa-mahal{background-color: white;margin: 10px;padding: 20px; border: 2px solid red;
+    border-radius: 80px 24px;
+    box-shadow: 5px 10px #888888;}
+
+.Hawa-mahal img{height: 200px;}
+
+.Sanchi-stupa{background-color: white;margin: 10px;padding: 20px;border: 2px solid red;
+    border-radius: 80px 24px;
+    box-shadow: 5px 10px #888888;}
+
+.Sanchi-stupa img{height: 200px;}
+
+@media (max-width:500px){main{
+   background-color: transparent;
+   flex-direction: column;
+
+
+   
+}
+}
+
+@media (max-width:1200px){.red-fort img{
+
+    flex-direction: column;
+    
+}}
+
+
+@media (max-width:500px){nav ul{
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(249, 210, 216);
+    border-radius: 60px;
+    border: 1px solid red;
+
+
+}}
+
+@media (max-width:500px){.red-fort:hover{background-color: skyblue;}}
+@media (max-width:500px){.Qutub-Minar:hover{background-color: skyblue;}}
+@media (max-width:500px){.Hawa-mahal:hover{background-color: skyblue;}}
+@media (max-width:500px){.Sanchi-stupa:hover{background-color: skyblue;}}
+
+
+
+
+
+.red-fort:hover{background-color: skyblue;}
+
+.Qutub-Minar:hover{background-color: skyblue;}
+
+.Hawa-mahal:hover{background-color: skyblue;}
+
+.Sanchi-stupa:hover{background-color: skyblue;}
+
