@@ -89,6 +89,11 @@ box-shadow: 5px 10px #888888;}
 @media (max-width:500px){.Sanchi-stupa:hover{background-color: skyblue;}}
 
 
+@media(max-width:500px){.red-fort img{height: 150px;}}
+@media(max-width:500px){.Hawa-mahal  img{height: 150px;}}
+@media(max-width:500px){.Sanchi-stupa img{height: 150px;}}
+
+
 
 
 
